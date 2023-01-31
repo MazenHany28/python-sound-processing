@@ -1,0 +1,1 @@
+use in command line of the editor (ex: spyder(anaconda 3)) ==> pip install (library_name)

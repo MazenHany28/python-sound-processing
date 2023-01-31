@@ -1,0 +1,7 @@
+1) Download rubberband library (folder containing rubberband.exe and libsndfile-1.dll) ======> rubberband-2.0.2-gpl-executable-windows
+2) Go to Windows System Environment and Add the folder to Path.
+3) Create System Variable with Variable name "rubberband" and path to the rubberband.exe
+4) Make sure all your relevant users can access the path and the rubberband variable 
+(for me, I had to set it up for the admin account and my local user account).
+This can be checked by opening cmd and typing "rubberband". If the command works, the library is recognized.
+5) Restart the Program in which you want to access the library (e.g. restart Visual Studio).
